@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<!-- 	http://localhost/ejx4tut/ajax/ejx4tuttraining.action -->
+	<package name="com.ejx4tut.training.json" namespace="/ajax" extends="framework.json">
+		<action name="ejx4tuttraining">
+			<result name="success" type="framework.textresult" /> <!--类在framework下的struts下的struts-core.xml中有配置,三层配置 -->
+		</action>
+	</package>
+	
+</struts>
